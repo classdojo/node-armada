@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var commander = require("commander"),
+armada        = require("..");
+
+commander.
+command("-c, --config", "the config file path. Default is ~/.armada/config");
+
+var conf = require((commander.config || "~/.armada/config").replace("~", process.env.HOME))
+
+
+new armada.Client(conf).start();
+
+commander.parse(process.argv);

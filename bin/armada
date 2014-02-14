@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var commander = require("commander");
+
+commander.
+command("client", "runs an armada client").
+command("server", "runs the armada server").
+command("cli", "runs the armada cli interface");
+
+commander.parse(process.argv);

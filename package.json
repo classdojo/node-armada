@@ -1,0 +1,40 @@
+{
+  "name": "armada",
+  "version": "0.0.1",
+  "description": "node-armada ===========",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "armada": "./bin/armada",
+    "armada-cli": "./bin/armada-cli",
+    "armada-client": "./bin/armada-client",
+    "armada-server": "./bin/armada-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/classdojo/node-armada.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/classdojo/node-armada/issues"
+  },
+  "dependencies": {
+    "protoclass": "0.0.5",
+    "dnode": "~1.2.0",
+    "commander": "~2.1.0",
+    "bindable": "~0.5.26",
+    "underscore": "~1.6.0",
+    "packages": "0.0.5",
+    "comerr": "0.0.6",
+    "traverse": "~0.6.6",
+    "hurryup": "0.0.2",
+    "deep-extend": "~0.2.8",
+    "sift": "0.0.12",
+    "brasslet": "0.0.19",
+    "type-component": "0.0.1",
+    "flatten": "0.0.1"
+  }
+}
